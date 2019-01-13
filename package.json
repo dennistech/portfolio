@@ -5,6 +5,7 @@
   "homepage": "http://dennistech.github.io/portfolio",
   "dependencies": {
     "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.2"
@@ -15,7 +16,8 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sass": "node-sass -w src/scss/ -o src/css/ --recursive"
   },
   "eslintConfig": {
     "extends": "react-app"
