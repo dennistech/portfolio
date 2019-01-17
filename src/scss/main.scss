@@ -1,0 +1,75 @@
+@import 'config';
+@import 'menu';
+@import 'mobile';
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  @include background;
+  position: absolute;
+  background-color: $color3;
+  color: $color1;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Segue UI, Tahoma, Geneva, Verdana, sans-serif';
+  line-height: 1.5;
+}
+
+// Headings
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 400;
+
+  &.lg-heading {
+    font-size: 6rem;
+  }
+
+  &.sm-heading {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background: rgba(lighten($color3, 2), 0.5);
+  }
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+.text-secondary {
+  color: $color5;
+}
+
+main {
+  padding: 4rem;
+  height: 100%;
+
+  .icons {
+    margin-top: 1rem;
+
+    a {
+      padding: 0.4rem;
+
+      &:hover {
+        color: $color4;
+        @include easeOut();
+      }
+    }
+  }
+
+  &#home {
+    overflow: hidden;
+    h1 {
+      margin-top: 20vh;
+    }
+  }
+}
