@@ -22,8 +22,17 @@
 
   ul.menu-nav {
     float: none;
-    // width: 100%;
     min-height: 0;
+  }
+
+  .about-info {
+    grid-template-areas:
+    'bio'
+    'skill-1'
+    'skill-2'
+    'skill-3';
+
+    grid-template-columns: 1fr;
   }
 }
 

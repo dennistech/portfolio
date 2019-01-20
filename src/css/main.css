@@ -82,23 +82,11 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.8s; }
 
-@media screen and (max-width: 768px) {
-  main {
-    align-items: center;
-    text-align: center; }
-  .lg-heading {
-    line-height: 1;
-    margin-bottom: 1rem; }
-  ul.menu-nav {
-    float: none;
-    min-height: 0; } }
-
-@media screen and (max-width: 500px) {
-  main#home h1 {
-    margin-top: 10vh; } }
-
 * {
   box-sizing: border-box; }
+
+body {
+  background-color: #6396f3; }
 
 #root {
   position: absolute;
@@ -148,7 +136,7 @@ header {
 
 main {
   padding: 4rem;
-  height: 100%; }
+  min-height: calc(100vh - 50px); }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -160,3 +148,55 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+
+.about-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: 'bio bio bio' 'skill-1 skill-2 skill-3';
+  grid-template-columns: repeat(3, 1fr); }
+  .about-info .bio {
+    grid-area: bio;
+    font-size: 1.5rem; }
+  .about-info .skill-1 {
+    grid-area: skill-1; }
+  .about-info .skill-2 {
+    grid-area: skill-2; }
+  .about-info .skill-3 {
+    grid-area: skill-3; }
+  .about-info .skill {
+    background: #1164fc;
+    padding: 1rem 0.5rem;
+    border-bottom: #f3f7fe 5px solid;
+    text-align: center; }
+    .about-info .skill h3 {
+      font-size: 2rem;
+      font-weight: 700; }
+    .about-info .skill ul {
+      padding: 0;
+      list-style: none;
+      font-size: 1.5rem; }
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #3476ef;
+  color: set-text-color(#6396f3);
+  height: 50px; }
+
+@media screen and (max-width: 768px) {
+  main {
+    align-items: center;
+    text-align: center; }
+  .lg-heading {
+    line-height: 1;
+    margin-bottom: 1rem; }
+  ul.menu-nav {
+    float: none;
+    min-height: 0; }
+  .about-info {
+    grid-template-areas: 'bio' 'skill-1' 'skill-2' 'skill-3';
+    grid-template-columns: 1fr; } }
+
+@media screen and (max-width: 500px) {
+  main#home h1 {
+    margin-top: 10vh; } }
