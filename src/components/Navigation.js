@@ -35,8 +35,8 @@ export class Navigation extends React.Component {
               </a>
             </li>
             <li className={`nav-item ${this.state.showMenu ? 'show' : '' }`}>
-              <a href="/projects" className="nav-link">
-                Projects
+              <a href="/experience" className="nav-link">
+                Experience
               </a>
             </li>
             <li className={`nav-item ${this.state.showMenu ? 'show' : '' }`}>

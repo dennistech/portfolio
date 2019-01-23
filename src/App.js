@@ -5,6 +5,7 @@ import './css/main.css';
 import { Navigation } from './components/Navigation';
 import { Home } from './components/Home';
 import { About } from './components/About';
+import { Experience } from './components/Experience';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <Navigation />
           <Route path="/" component={Home} exact />
           <Route path="/about" component={About} exact />
+          <Route path="/experience" component={Experience} exact />
 
           <footer id="main-footer">
             Copyright &copy; 2018

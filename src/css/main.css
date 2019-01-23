@@ -176,6 +176,35 @@ main {
       list-style: none;
       font-size: 1.5rem; }
 
+.experience {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr); }
+  .experience img {
+    width: 100%;
+    border: 3px #ffffff solid; }
+    .experience img:hover {
+      opacity: 0.5;
+      border-color: #9ebdf6;
+      transition: all 0.5s ease-out; }
+
+.btn, .btn-dark, .btn-light {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem; }
+  .btn:hover, .btn-dark:hover, .btn-light:hover {
+    background: #9ebdf6;
+    color: set-text-color(#9ebdf6); }
+
+.btn-dark {
+  background: #062151;
+  color: #ffffff; }
+
+.btn-light {
+  background: white;
+  color: #333333; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
@@ -195,8 +224,12 @@ main {
     min-height: 0; }
   .about-info {
     grid-template-areas: 'bio' 'skill-1' 'skill-2' 'skill-3';
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .experience {
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh; } }
+    margin-top: 10vh; }
+  .experience {
+    grid-template-columns: 1fr; } }
