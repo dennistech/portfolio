@@ -188,6 +188,50 @@ main {
       border-color: #9ebdf6;
       transition: all 0.5s ease-out; }
 
+#time-tracker {
+  background: url(../img/project.jpg);
+  background-size: cover; }
+  #time-tracker .tech-container {
+    background-color: #0357f1;
+    color: #f3f7fe;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem; }
+    #time-tracker .tech-container h3 {
+      text-align: center;
+      font-size: 2rem; }
+    #time-tracker .tech-container .tech-item {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #9ebdf6; }
+  #time-tracker .github-link {
+    background-color: #0357f1;
+    text-align: center;
+    padding: 1.5rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem; }
+    #time-tracker .github-link a {
+      font-size: 1.7rem; }
+      #time-tracker .github-link a:hover {
+        color: #9ebdf6; }
+
+.time-tracker {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr); }
+  .time-tracker img {
+    widtH: 100%;
+    border: 0.6rem #0357f1 solid; }
+  .time-tracker .description {
+    background-color: #0357f1;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    border: 3px #f3f7fe dashed;
+    text-align: center; }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
@@ -225,11 +269,13 @@ main {
   .about-info {
     grid-template-areas: 'bio' 'skill-1' 'skill-2' 'skill-3';
     grid-template-columns: 1fr; }
-  .experience {
+  .experience, .time-tracker {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh; }
-  .experience {
+  h1.lg-heading, h2.lg-heading, h3.lg-heading {
+    font-size: 3.5rem; }
+  .experience, .time-tracker {
     grid-template-columns: 1fr; } }

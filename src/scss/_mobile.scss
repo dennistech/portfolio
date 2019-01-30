@@ -35,7 +35,7 @@
     grid-template-columns: 1fr;
   }
 
-  .experience {
+  .experience, .time-tracker {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -46,7 +46,13 @@
     margin-top: 10vh;
   }
 
-  .experience {
+  h1, h2, h3 {
+    &.lg-heading {
+      font-size: 3.5rem;
+    }
+  }
+
+  .experience, .time-tracker {
     grid-template-columns: 1fr;
   }
 }
