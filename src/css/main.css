@@ -188,32 +188,32 @@ main {
       border-color: #9ebdf6;
       transition: all 0.5s ease-out; }
 
-#time-tracker {
+#time-tracker, #midnite {
   background: url(../img/project.jpg);
   background-size: cover; }
-  #time-tracker .tech-container {
+  #time-tracker .tech-container, #midnite .tech-container {
     background-color: #0357f1;
     color: #f3f7fe;
     margin-bottom: 2rem;
     padding: 1.5rem;
     border-top-left-radius: 3rem;
     border-top-right-radius: 3rem; }
-    #time-tracker .tech-container h3 {
+    #time-tracker .tech-container h3, #midnite .tech-container h3 {
       text-align: center;
       font-size: 2rem; }
-    #time-tracker .tech-container .tech-item {
+    #time-tracker .tech-container .tech-item, #midnite .tech-container .tech-item {
       text-align: center;
       font-size: 2.5rem;
       color: #9ebdf6; }
-  #time-tracker .github-link {
+  #time-tracker .github-link, #midnite .github-link {
     background-color: #0357f1;
     text-align: center;
     padding: 1.5rem;
     border-bottom-left-radius: 3rem;
     border-bottom-right-radius: 3rem; }
-    #time-tracker .github-link a {
+    #time-tracker .github-link a, #midnite .github-link a {
       font-size: 1.7rem; }
-      #time-tracker .github-link a:hover {
+      #time-tracker .github-link a:hover, #midnite .github-link a:hover {
         color: #9ebdf6; }
 
 .time-tracker {
@@ -221,9 +221,35 @@ main {
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr); }
   .time-tracker img {
-    widtH: 100%;
+    width: 100%;
     border: 0.6rem #0357f1 solid; }
   .time-tracker .description {
+    background-color: #0357f1;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    border: 3px #f3f7fe dashed;
+    text-align: center; }
+
+.midnite {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-rows: auto;
+  grid-template-areas: 'item-ss1 item-ss1' 'item-ss2 item-ss3';
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 768px;
+  margin: 0 auto; }
+  .midnite .item-ss1 {
+    grid-area: item-ss1; }
+  .midnite .item-ss2 {
+    grid-area: item-ss2; }
+  .midnite .item-ss3 {
+    grid-area: item-ss3; }
+  .midnite img {
+    width: 100%;
+    border: 0.6rem #0357f1 solid; }
+  .midnite .description {
     background-color: #0357f1;
     font-size: 1.2rem;
     padding: 1rem 0;

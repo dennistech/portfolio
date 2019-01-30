@@ -33,13 +33,13 @@ export const Experience = () => (
           </a>
         </div>
         <div className="item">
-          <a href="#!">
-            <img src={require("./../img/project.jpg")} alt="Project" />
+          <a href="/midnite">
+            <img src={require("./../img/Midnite-App_ss2.png")} alt="Midnite" />
           </a>
-          <a href="#!" className="btn-light">
-            <i className="fas fa-eye"></i> Project
+          <a href="/midnite" className="btn-light">
+            <i className="fas fa-eye"></i> Midnite App
           </a>
-          <a href="#!" className="btn-dark">
+          <a href="https://github.com/dennistech/Midnite-App" className="btn-dark">
             <i className="fab fa-github"></i> Github
           </a>
         </div>
