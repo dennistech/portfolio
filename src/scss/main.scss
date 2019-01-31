@@ -211,11 +211,24 @@ main {
   grid-gap: 1rem;
   grid-template-rows: auto;
   grid-template-areas:
+    'rules rules'
     'item-ss1 item-ss1'
     'item-ss2 item-ss3';
   grid-template-columns: repeat(2, 1fr);
   max-width: 768px;
   margin: 0 auto;
+
+  .rules {
+    background-color: $color1;
+    color: $color5;
+    font-size: 1.1rem;
+    padding-right: 15px;
+    grid-area: rules;
+
+    h2 {
+      text-align: center;
+    }
+  }
 
   .item-ss1 {
     grid-area: item-ss1;

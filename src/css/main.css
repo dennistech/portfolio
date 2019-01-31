@@ -239,10 +239,18 @@ main {
   display: grid;
   grid-gap: 1rem;
   grid-template-rows: auto;
-  grid-template-areas: 'item-ss1 item-ss1' 'item-ss2 item-ss3';
+  grid-template-areas: 'rules rules' 'item-ss1 item-ss1' 'item-ss2 item-ss3';
   grid-template-columns: repeat(2, 1fr);
   max-width: 768px;
   margin: 0 auto; }
+  .midnite .rules {
+    background-color: #f3f7fe;
+    color: #0357f1;
+    font-size: 1.1rem;
+    padding-right: 15px;
+    grid-area: rules; }
+    .midnite .rules h2 {
+      text-align: center; }
   .midnite .item-ss1 {
     grid-area: item-ss1; }
   .midnite .item-ss2 {
@@ -323,7 +331,9 @@ main {
     grid-template-areas: 'bio' 'skill-1' 'skill-2' 'skill-3';
     grid-template-columns: 1fr; }
   .experience, .time-tracker, .jackpot {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  .rules li {
+    text-align: left; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {

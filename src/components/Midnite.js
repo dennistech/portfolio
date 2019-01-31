@@ -16,6 +16,16 @@ export const Midnite = () => (
         </div>
       </div>
       <div className="midnite">
+        <div className="rules">
+          <h2>Rules</h2>
+          <ul>
+            <li>The objective of the game is get the highest score (up to 24).</li>
+            <li>After each roll, at least 1 die must be selected.</li>
+            <li>The dice/die selected are tallied into the score.</li>
+            <li>An 1 and a 4, qualifiers, must be selected by the end of the game for the score to count.</li>
+            <li>Qualifiers does not count towards final score.</li>
+          </ul>
+        </div>
         <div className="item-ss1">
           <img src={require("./../img/Midnite-App_ss1.png")} alt="Midnite complete game" />
           <div className="description">Game play from start to end with final score of 19</div>

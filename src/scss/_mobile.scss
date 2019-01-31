@@ -38,6 +38,10 @@
   .experience, .time-tracker, .jackpot {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .rules li {
+    text-align: left;
+  }
 }
 
 // Smartphones
