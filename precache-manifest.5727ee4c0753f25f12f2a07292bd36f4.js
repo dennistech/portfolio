@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Jackpot-App_ss1.f562af2e.png"
   },
   {
-    "revision": "6b5b712a15ca3517b95b53153bd119ec",
-    "url": "/portfolio/static/media/background.6b5b712a.jpg"
-  },
-  {
     "revision": "fddf36fac3ffbbd049227e6ed2af6ed9",
     "url": "/portfolio/static/media/project.fddf36fa.jpg"
+  },
+  {
+    "revision": "6b5b712a15ca3517b95b53153bd119ec",
+    "url": "/portfolio/static/media/background.6b5b712a.jpg"
   },
   {
     "revision": "84bc628d8bd168e52f7f18ff2c58fd8a",
