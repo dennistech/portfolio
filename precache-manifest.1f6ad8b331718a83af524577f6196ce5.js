@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/TimeTracker_ss2.787b29eb.png"
   },
   {
-    "revision": "e690207d50106a8ef5d3",
+    "revision": "d387014289bc7e2c3195",
     "url": "/portfolio/static/css/main.6fd66e54.chunk.css"
   },
   {
-    "revision": "b26ce726d4ed01b5cb9a",
-    "url": "/portfolio/static/js/1.b26ce726.chunk.js"
+    "revision": "5cf76b2a599c7b9fa4c8",
+    "url": "/portfolio/static/js/1.5cf76b2a.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -28,20 +28,20 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Jackpot-App_ss1.f562af2e.png"
   },
   {
-    "revision": "fddf36fac3ffbbd049227e6ed2af6ed9",
-    "url": "/portfolio/static/media/project.fddf36fa.jpg"
-  },
-  {
     "revision": "6b5b712a15ca3517b95b53153bd119ec",
     "url": "/portfolio/static/media/background.6b5b712a.jpg"
+  },
+  {
+    "revision": "fddf36fac3ffbbd049227e6ed2af6ed9",
+    "url": "/portfolio/static/media/project.fddf36fa.jpg"
   },
   {
     "revision": "84bc628d8bd168e52f7f18ff2c58fd8a",
     "url": "/portfolio/static/media/dan_website.84bc628d.jpg"
   },
   {
-    "revision": "e690207d50106a8ef5d3",
-    "url": "/portfolio/static/js/main.e690207d.chunk.js"
+    "revision": "d387014289bc7e2c3195",
+    "url": "/portfolio/static/js/main.d3870142.chunk.js"
   },
   {
     "revision": "64335bbe0f6facef5740b2512ba8dd77",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Jackpot-App_ss5.16be02e6.png"
   },
   {
-    "revision": "0c9455fadffed11fefc135399fd3c146",
+    "revision": "55e3d710eb8bd3e03399f86036bd1a71",
     "url": "/portfolio/index.html"
   }
 ];
