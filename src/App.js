@@ -8,6 +8,7 @@ import { About } from './components/About';
 import { Experience } from './components/Experience';
 import { TimeTracker } from './components/TimeTracker';
 import { Midnite } from './components/Midnite';
+import { Jackpot } from './components/Jackpot';
 
 class App extends Component {
   render() {
@@ -20,7 +21,8 @@ class App extends Component {
           <Route path="/experience" component={Experience} exact />
           <Route path="/timetracker" component={TimeTracker} exact />
           <Route path="/midnite" component={Midnite} exact />
-          
+          <Route path="/jackpot" component={Jackpot} exact />
+
           <footer id="main-footer">
             Copyright &copy; 2018
           </footer>

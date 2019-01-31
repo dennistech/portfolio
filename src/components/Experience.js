@@ -43,6 +43,17 @@ export const Experience = () => (
             <i className="fab fa-github"></i> Github
           </a>
         </div>
+        <div className="item">
+          <a href="/jackpot">
+            <img src={require("./../img/Jackpot-App_ss1.png")} alt="Jackpot" />
+          </a>
+          <a href="/jackpot" className="btn-light">
+            <i className="fas fa-eye"></i> Jackpot App
+          </a>
+          <a href="https://github.com/dennistech/Jackpot-App" className="btn-dark">
+            <i className="fab fa-github"></i> Github
+          </a>
+        </div>
       </div>
     </main>
   </div>

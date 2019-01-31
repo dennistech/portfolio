@@ -179,41 +179,44 @@ main {
 .experience {
   display: grid;
   grid-gap: 0.7rem;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1060px;
+  margin: 0 auto; }
   .experience img {
     width: 100%;
+    max-height: 350px;
     border: 3px #ffffff solid; }
     .experience img:hover {
       opacity: 0.5;
       border-color: #9ebdf6;
       transition: all 0.5s ease-out; }
 
-#time-tracker, #midnite {
+#time-tracker, #midnite, #jackpot {
   background: url(../img/project.jpg);
   background-size: cover; }
-  #time-tracker .tech-container, #midnite .tech-container {
+  #time-tracker .tech-container, #midnite .tech-container, #jackpot .tech-container {
     background-color: #0357f1;
     color: #f3f7fe;
     margin-bottom: 2rem;
     padding: 1.5rem;
     border-top-left-radius: 3rem;
     border-top-right-radius: 3rem; }
-    #time-tracker .tech-container h3, #midnite .tech-container h3 {
+    #time-tracker .tech-container h3, #midnite .tech-container h3, #jackpot .tech-container h3 {
       text-align: center;
       font-size: 2rem; }
-    #time-tracker .tech-container .tech-item, #midnite .tech-container .tech-item {
+    #time-tracker .tech-container .tech-item, #midnite .tech-container .tech-item, #jackpot .tech-container .tech-item {
       text-align: center;
       font-size: 2.5rem;
       color: #9ebdf6; }
-  #time-tracker .github-link, #midnite .github-link {
+  #time-tracker .github-link, #midnite .github-link, #jackpot .github-link {
     background-color: #0357f1;
     text-align: center;
     padding: 1.5rem;
     border-bottom-left-radius: 3rem;
     border-bottom-right-radius: 3rem; }
-    #time-tracker .github-link a, #midnite .github-link a {
+    #time-tracker .github-link a, #midnite .github-link a, #jackpot .github-link a {
       font-size: 1.7rem; }
-      #time-tracker .github-link a:hover, #midnite .github-link a:hover {
+      #time-tracker .github-link a:hover, #midnite .github-link a:hover, #jackpot .github-link a:hover {
         color: #9ebdf6; }
 
 .time-tracker {
@@ -250,6 +253,30 @@ main {
     width: 100%;
     border: 0.6rem #0357f1 solid; }
   .midnite .description {
+    background-color: #0357f1;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    border: 3px #f3f7fe dashed;
+    text-align: center; }
+
+.jackpot {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr); }
+  .jackpot .rules {
+    background-color: #f3f7fe;
+    color: #0357f1;
+    font-size: 1.1rem;
+    padding-right: 15px; }
+    .jackpot .rules h2 {
+      font-size: 2.5rem;
+      text-align: center; }
+  .jackpot img {
+    width: 100%;
+    border: 0.6rem #0357f1 solid; }
+  .jackpot .description {
     background-color: #0357f1;
     font-size: 1.2rem;
     padding: 1rem 0;
@@ -295,7 +322,7 @@ main {
   .about-info {
     grid-template-areas: 'bio' 'skill-1' 'skill-2' 'skill-3';
     grid-template-columns: 1fr; }
-  .experience, .time-tracker {
+  .experience, .time-tracker, .jackpot {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
@@ -303,5 +330,5 @@ main {
     margin-top: 10vh; }
   h1.lg-heading, h2.lg-heading, h3.lg-heading {
     font-size: 3.5rem; }
-  .experience, .time-tracker {
+  .experience, .time-tracker, .jackpot {
     grid-template-columns: 1fr; } }

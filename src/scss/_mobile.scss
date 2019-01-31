@@ -35,7 +35,7 @@
     grid-template-columns: 1fr;
   }
 
-  .experience, .time-tracker {
+  .experience, .time-tracker, .jackpot {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -52,7 +52,7 @@
     }
   }
 
-  .experience, .time-tracker {
+  .experience, .time-tracker, .jackpot {
     grid-template-columns: 1fr;
   }
 }
