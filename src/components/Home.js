@@ -9,10 +9,10 @@ export const Home = () => (
       Front End Software Engineer, Developer & Programmer
     </h2>
     <div className="icons">
-      <a href="#!">
+      <a href="https://linkedin.com/in/mokdennis">
         <i className="fab fa-linkedin fa-2x" />
       </a>
-      <a href="#!">
+      <a href="https://github.com/dennistech">
         <i className="fab fa-github fa-2x" />
       </a>
     </div>

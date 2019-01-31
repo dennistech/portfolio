@@ -59,4 +59,14 @@
   .experience, .time-tracker, .jackpot {
     grid-template-columns: 1fr;
   }
+
+  .boxes {
+    div {
+      font-size: 1.1rem;
+
+      span {
+        font-size: 1.3rem;
+      }
+    }
+  }
 }

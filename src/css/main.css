@@ -293,6 +293,19 @@ main {
     border: 3px #f3f7fe dashed;
     text-align: center; }
 
+.boxes div {
+  font-size: 2rem;
+  border: 3px #ffffff solid;
+  background-color: #9ebdf6;
+  color: #2073f3;
+  padding: 1.5rem 2.5rem;
+  margin-bottom: 3rem; }
+
+.boxes a {
+  color: #2073f3; }
+  .boxes a:hover {
+    color: #f3f7fe; }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
@@ -341,4 +354,8 @@ main {
   h1.lg-heading, h2.lg-heading, h3.lg-heading {
     font-size: 3.5rem; }
   .experience, .time-tracker, .jackpot {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .boxes div {
+    font-size: 1.1rem; }
+    .boxes div span {
+      font-size: 1.3rem; } }

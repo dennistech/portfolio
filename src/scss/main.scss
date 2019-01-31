@@ -291,6 +291,26 @@ main {
   }
 }
 
+// Contact Page
+.boxes {
+  div {
+    font-size: 2rem;
+    border: 3px #ffffff solid;
+    background-color: $color2;
+    color: $color4;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  a {
+    color: $color4;
+
+    &:hover {
+      color: $color1;
+    }
+  }
+}
+
 // Button Styles
 .btn {
   display: block;
